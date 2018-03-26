@@ -1,8 +1,20 @@
 # etherlesson
 
-> ethereum action lesson from china
+> 以太坊智能合约实战课程
 
-## Build Setup
+## truffle 使用流程
+
+```bash
+# 进入智能合约开发目录
+cd sc
+# 使用 truffle 编译合约
+truffle complite
+```
+
+
+## 界面执行合约步骤
+
+**待实现**
 
 ``` bash
 # install dependencies
