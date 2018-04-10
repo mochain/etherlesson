@@ -15,3 +15,6 @@ selenium-debug.log
 *.ntvs*
 *.njsproj
 *.sln
+
+# 忽略 truffle 编译所得，需实时编译
+/sc/build/
