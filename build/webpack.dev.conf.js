@@ -63,6 +63,12 @@ const devWebpackConfig = merge(baseWebpackConfig, {
         from: path.resolve(__dirname, '../static'),
         to: config.dev.assetsSubDirectory,
         ignore: ['.*']
+      },
+      // 将合约ABI文档作为静态资源载入
+      { 
+        from: path.resolve(__dirname, '../sc/build'),
+        to: config.dev.assetsSubDirectory,
+        ignore: ['.*']
       }
     ])
   ]
